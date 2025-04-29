@@ -1,6 +1,6 @@
-# **📌 Privilee Project Documentation**
+# **Privilee Project Documentation**
 
-## **🚀 Project Overview**
+## **Project Overview**
 
 This Privilee project follows **Clean Architecture** combined with **MVVM (Model-View-ViewModel) pattern**. It utilizes **Provider** for state management and features **efficient API handling** with proper testing strategies.
 
@@ -12,17 +12,17 @@ This Privilee project follows **Clean Architecture** combined with **MVVM (Model
 
 The project is structured into multiple layers to maintain modularity and scalability:
 
-### **1️⃣ Presentation Layer**
+### **Presentation Layer**
 
 - UI components and ViewModels.
 - Manages UI state using **Provider**.
 
-### **2️⃣ Domain Layer**
+### **Domain Layer**
 
 - Contains **business logic** and **use cases**.
 - Acts as an intermediary between UI and Data layers.
 
-### **3️⃣ Data Layer**
+### **Data Layer**
 
 - Handles API interactions and data sources.
 - Implements repositories to abstract external dependencies.
@@ -31,9 +31,9 @@ This architecture ensures **testability, maintainability, and separation of conc
 
 ---
 
-## **🚀 How to Run the Application**
+## **How to Run the Application**
 
-### **1️⃣ Install Dependencies**
+### **Install Dependencies**
 
 **Run:**
 flutter pub get
@@ -42,21 +42,29 @@ flutter run
 **Running on Specific Platforms**
 
 **Android**
+
 flutter run -d android
 
 **iOS**
+
 flutter run -d ios
 
 **Web**
+
 flutter run -d chrome
 
 **Testing Approach**
+
 This project includes both manual and automated testing using flutter_test, Mockito, and Mocktail.
-Types of Tests Implemented
-✅ Widget Testing - Ensures UI elements render correctly.
-✅ Unit Testing - Validates ViewModel logic and state updates.
-✅ API/HTTP Testing - Uses Mockito & Mocktail to simulate API calls without hitting real endpoints.
-Running Tests
+
+**Types of Tests Implemented**
+
+Widget Testing - Ensures UI elements render correctly.
+Unit Testing - Validates ViewModel logic and state updates.
+API/HTTP Testing - Uses Mockito & Mocktail to simulate API calls without hitting real endpoints.
+
+**Running Tests**
+
 Execute:
 flutter test
 
