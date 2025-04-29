@@ -1,0 +1,2 @@
+C:/Users/pinoy/Desktop/privelee4/android/app/.cxx/Debug/4q461mx4/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/pinoy/Desktop/privelee4/android/app/.cxx/Debug/4q461mx4/arm64-v8a/CMakeFiles/rebuild_cache.dir
